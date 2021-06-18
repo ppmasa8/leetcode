@@ -23,6 +23,5 @@ def merge_two_lists(l1, l2)
             l2 = l2.next
         end 
     end
-    val = [l1_val, l2_val].flatten!.sort
-    val
+    [l1_val, l2_val].flatten!.sort
 end
