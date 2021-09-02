@@ -10,4 +10,5 @@ def duplicate_zeros(arr)
     i+=1
     end
     arr
+    
 end
