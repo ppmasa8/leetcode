@@ -16,3 +16,9 @@ def plus_one(digits)
     end
     digits
 end
+
+# another solution
+
+def plus_one(digits)
+    (digits.join.to_i+1).to_s.split("").map{|s| s.to_i}
+end
